@@ -1,0 +1,125 @@
+
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+  }
+
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  :root {
+    --color-default: #212529;
+    --color-primary: #ce1212;
+    --color-secondary: #37373f;
+  }
+  .section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+  }
+ 
+
+/* header h1 {
+    text-align: center;
+    font-size: 100px;
+    color:brown;
+    font-style: italic;
+}
+
+
+header {
+
+    background-image: url("images/header.jpg") ;
+    opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;    
+    -o-background-size: cover;     
+    background-size: cover;  
+    padding: 50px;
+}  */
+section{
+    min-height: 50vh;
+}
+section {
+    background-color: white;
+}
+
+
+
+#a1{
+    color: black;
+}
+#a1:hover{
+    color:orange;
+}
+
+.founder_link{
+    text-decoration: none;
+    color: white;
+}
+
+/* nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+#a1 {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+} */
+main {
+    background-color: white;
+   
+}
+
+
+.food{
+    background-color:lightgray;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.food_link{
+    text-decoration: none;
+    color: black;
+}
+
+   /* .images{
+    flex-wrap: wrap;
+    width: 33.33%;
+    height: 100%;
+    border: 2px solid black;
+    float: left;
+    
+   }
+*/
+img {
+    padding: 10px;
+}
+.section-header p span {
+    color: var(--color-primary);
+  }
+  .section-header {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+  }
