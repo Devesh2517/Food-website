@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .box {
+            color: #000;
+            font-weight: bolder;
+            box-sizing: border-box;
+            width: 415px;
+            padding: 20px;
+            background-color: #ffffff85;
+            position: relative;
+            left: 50%;
+            top: 60%;
+            transform: translate(-50%, -50%);
+            border-radius: 0px 0px;
+            margin-top: 25%;
+        }
+
+        .box button {
+            width: 30%;
+            background: red;
+            border-radius: 0px 0px;
+            color: rgb(255, 255, 255);
+            margin-left: 275px;
+            border: none;
+
+        }
+
+        .box button:hover {
+            background-color: transparent;
+            color: red;
+            border: 2px solid red;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            
+            }
+
+    </style>
+    
+</head>
+
+<body>
+    <video autoplay muted loop class="video">
+        <source src="Home.mp4" type="video/mp4">
+    </video>
+    <div class="box" style="height:350px;">
+        <div style="height:35px;">
+            <form name="myform" action="#" onsubmit="loginData(event);">
+                <h1 style="text-align: center; margin-top: 10px;">Login <span style="color: red;">Here</h1></span>
+                <label for="fname" style="margin-left: 20px; font-size:20px; margin-top: 40px;">User Name</label><br><br>
+                <input type="text" name="fname" placeholder="Enter your user name" style="width:80%; height:40px; border-radius: 0 0px; margin-left: 15px; border-color: rgba(255, 255, 255, 0.829); padding: 0 20px;"><br><br>
+                <label for="last name" style="margin-left: 20px; font-size:20px;">Password</label><br><br>
+                <input type="password" name="password"  placeholder="Enter your password" style="width:80%; height:40px; border-radius: 0 0px; margin-left: 15px; border-color: rgba(255, 255, 255, 0.829); padding: 0 20px;"><br><br>
+                <button  value="submit" class="button" style="height:30px; width: 80px;"> <span style="font-size:20px">Login</button>
+                
+            </form>
+
+            <div style="margin-top: -25px; margin-left: 10px;">
+                <a href="creatpass.html" >Creat Account</a>
+            </div>
+            
+        </div>
+        
+
+    </div>
+    </div>
+    
+    
+
+
+</body>
+
+</html>
